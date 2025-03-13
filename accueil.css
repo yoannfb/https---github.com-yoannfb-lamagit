@@ -1,12 +1,14 @@
-.logo {
+
+
+.logo img {
     width: 100%;
-    background-color: aqua;
 }
 
-.picture {
-    width: 75%;
-    height: 75%;
+.navbar {
+    background: linear-gradient(0deg, rgba(84,44,35,1) 0%, rgba(255,248,239,1) 100%);
+    font-weight: 600;
 }
+
 
 /* section parallax */
 .parallax-section{
@@ -36,14 +38,33 @@
 #parallax2{
     background-image: url(../lamagit/assets/images/bouddha.webp);
 }
+.bouddha {
+    font-style: italic;
+    font-family: cursive;
+}
+h2,p {
+    font-family: cursive;
+}
 
-.contact div{
+/*.contact div{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: gold;
-}
+}*/
 .color{
     background-color: #fff8ef;
+}
+
+.btn {
+    background-color: rgba(84,44,35,1) ;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#fff8ef;
+    height: 50px;
+    font-size: 18px;
 }
