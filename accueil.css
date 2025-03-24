@@ -58,7 +58,8 @@ h2,p {
 }
 
 .btn {
-    background-color: rgba(84,44,35,1) ;
+    background-color: rgba(84,44,35,1);
+    color: white;
 }
 
 .footer{
